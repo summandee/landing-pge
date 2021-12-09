@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+/* Media Query */
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #4ca084 !important;
+  height: 80px;
+  color: #f9fafa;
+}
+.nav-item {
+  color: #f9fafa;
+  padding-right: 25px;
+  font-size: 16px;
+  padding-left: 18px;
+}
+.div-1 {
+  background-color: #4ca084;
+  font-size: 18px;
+}
+
+.slideDiv h3 {
+  font-size: 35px;
+  color: #f9fafa;
+}
+.slideDiv p {
+  font-size: 24px;
+  color: #f9fafa;
+}
+.div-2 {
+  background-color: #283558;
+  color: #f9fafa;
+}
+.socialDiv {
+  background-color: #4ca084;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card1 {
+  width: 400px;
+  height: 260px;
+  border: none;
+}
+.btn1 {
+  background-color: #283558 !important;
+}
+.footDiv {
+  background-color: #252525;
+  color: #f9fafa;
+}
+.footDiv a {
+  color: #4ca084;
+  text-decoration: none;
+}
+.copyDiv {
+  background-color: #081529;
+  color: #f9fafa;
+}
+.copyDiv a {
+  color: #4ca084;
+  text-decoration: none;
+}
+.card-title-2 {
+  color: #25be8b;
+  margin-left: 15px;
+}
+.card-text-2 {
+  color: #0c3a80;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.btn-2 {
+  margin-left: 35%;
+}
+.heading-1 {
+  font-size: 40px;
+  font-family: "Quicksand", sans-serif;
+}
+/* Accordian Slider */
+.accordian {
+  width: 80%;
+  height: 351px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.accordian ul {
+  list-style: none;
+  cursor: pointer;
+}
+.accordian ul li {
+  position: relative;
+  width: calc(100% / 6);
+  float: left;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 30px black;
+}
+.accordian ul:hover li {
+  width: calc((100% - 650px) / 5);
+}
+.accordian ul li:hover {
+  width: 650px;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+
+.accordian ul li a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: mintcream;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+/* End accordian slider */
